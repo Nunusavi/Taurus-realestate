@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "../Taurus_real_estate Nate",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "index.html"
+      }
+    ]
+  }
+}
