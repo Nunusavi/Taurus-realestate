@@ -395,6 +395,91 @@ body{
 }
 .contact-us-form .contact-us .form{
 }
+
+.contact-us{
+
+}
+.contact-us .form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3vh 0;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    border: none;
+    border-bottom: #323232 2px solid;
+    box-sizing: border-box;
+    resize: none;
+    width: 90%;
+}
+
+
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    /* Add specific styling for email and phone number inputs if needed */
+}
+
+.form-group label span {
+    color: red; /* Indicates required fields */
+}
+
+.button button {
+    background-color: #000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button button:hover {
+    background-color: #45A049; /* Green hover effect */
+}
+/* map */
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0 0 0;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0 0 0;
+}
+.footer .footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1vh;
+}
+.footer1 .logo img{
+    width: 180px;
+    height: 117px;
+}
+.footer1 .content{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-items: flex-start;
+    gap: 4px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
