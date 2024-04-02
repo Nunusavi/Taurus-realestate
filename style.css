@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: rgba(210, 206, 207, 0.12);
+    background: rgba(210, 206, 207, 0.171);
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -323,7 +323,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
-    margin: 10vh 0 0 10vh;
+    margin: 4vh 0 0 10vh;
 }
 .partners .title{
     display: flex;
@@ -355,6 +355,7 @@ body{
     font-weight: 400;
     line-height: 100%; /* 18px */
     letter-spacing: 1.8px;
+    margin-right: 10vh;
 }
 .partners .content p{
     margin-top: 3vh;
@@ -395,6 +396,12 @@ body{
 }
 .contact-us-form .contact-us .form{
 }
+input, textarea, select{
+    background-color: rgba(210, 206, 207,0.001);
+}
+input:focus, textarea:focus {
+    outline: none;
+}
 
 .contact-us{
 
@@ -420,13 +427,15 @@ body{
     resize: none;
     width: 90%;
 }
-
+.form-group input,select,textarea:focus{
+    border: none;
+    border-bottom: #000 1px solid;
+}
 
 .form-group input[type="email"],
 .form-group input[type="tel"] {
     /* Add specific styling for email and phone number inputs if needed */
 }
-
 .form-group label span {
     color: red; /* Indicates required fields */
 }
